@@ -1,0 +1,17 @@
+.productImage{
+    width: 250px;
+    height: 300px;
+}
+
+.additionalImage{
+    max-height: 75px;
+    width: 75px; 
+}
+
+.offsetLeft{
+    margin-left : 20px;
+}
+
+.image{
+    text-align: center;
+}

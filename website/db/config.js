@@ -1,4 +1,4 @@
 const dbConfig = {
-    "url":"mongodb://localhost:27017/sellerDatabase"
+    "url":"mongodb+srv://admin:12345@janmayjaydatabase-zub2r.mongodb.net/test?retryWrites=true"
 };
 module.exports = dbConfig;
