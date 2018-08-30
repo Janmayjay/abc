@@ -1,0 +1,390 @@
+.hidden{
+  display : none;
+}
+
+.inputs-list .item-media {
+  font-size: 25px;
+}
+.inputs-list .input-error {
+  text-align: left;
+}
+.page[data-page="walkthrough"] .walkthrough-pagination {
+  bottom: 0px;
+}
+.page[data-page="walkthrough"] .walkthrough-actions {
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .dataTables_wrapper .dataTables_filter {
+    text-align: unset;
+    float: right;
+    margin-right: 1rem;
+  }
+}
+.inputs-list .item-media {
+  font-size: 25px;
+}
+.inputs-list .input-error {
+  text-align: left;
+}
+.page[data-page="walkthrough"] .walkthrough-pagination {
+  bottom: 0px;
+}
+.page[data-page="walkthrough"] .walkthrough-actions {
+  text-align: center;
+}
+/* addProduct page CSS Start */
+div[data-page="addProducts"] .page-content > div.tabs-swipeable-wrap {
+  overflow: auto;
+}
+div[data-page="addProducts"] table {
+  text-transform: capitalize;
+}
+
+@media (max-width: 480px) and (orientation: portrait){
+  .data-table.data-table-collapsible tr:not(:first-child) {
+    border-top: 1px solid #c4c4c4;
+  }
+}
+div[data-page="addProducts"] .modal {
+  display: none;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+  margin-left: 0px;
+  opacity: 1;
+}
+div[data-page="addProducts"] .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+div[data-page="addProducts"] .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+div[data-page="addProducts"] .closecontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+div[data-page="addProducts"] .close {
+  position: absolute;
+  right: 13px;
+  top: -30px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+div[data-page="addProducts"] .close:hover,
+div[data-page="addProducts"] .close:focus {
+  color: red;
+  cursor: pointer;
+}
+div[data-page="addProducts"] .content-block {
+  padding: 0px;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* addProduct page CSS End */
+
+/* manageCustomers page CSS Start */
+div[data-page="manageCustomers"] .page-content > div.tabs-swipeable-wrap {
+  overflow: auto;
+}
+div[data-page="manageCustomers"] table {
+  text-transform: capitalize;
+}
+
+@media (max-width: 480px) and (orientation: portrait){
+  .data-table.data-table-collapsible tr:not(:first-child) {
+    border-top: 1px solid #c4c4c4;
+  }
+}
+div[data-page="manageCustomers"] .modal {
+  display: none;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+  margin-left: 0px;
+  opacity: 1;
+}
+div[data-page="manageCustomers"] .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+div[data-page="manageCustomers"] .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+div[data-page="manageCustomers"] .closecontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+div[data-page="manageCustomers"] .close {
+  position: absolute;
+  right: 13px;
+  top: -30px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+div[data-page="manageCustomers"] .close:hover,
+div[data-page="manageCustomers"] .close:focus {
+  color: red;
+  cursor: pointer;
+}
+div[data-page="manageCustomers"] .content-block {
+  padding: 0px;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* manageCustomers page CSS End */
+
+
+
+
+/* manageCategories page CSS Start */
+div[data-page="manageCategories"] .modal {
+  display: none;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+  margin-left: 0px;
+  opacity: 1;
+}
+div[data-page="manageCategories"] .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+div[data-page="manageCategories"] .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+div[data-page="manageCategories"] .closecontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+div[data-page="manageCategories"] .close {
+  position: absolute;
+  right: 13px;
+  top: -30px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+div[data-page="manageCategories"] .close:hover,
+div[data-page="manageCategories"] .close:focus {
+  color: red;
+  cursor: pointer;
+}
+div[data-page="manageCategories"] .content-block {
+  padding: 0px;
+}
+
+
+
+
+
+
+div[data-page="order"] .modal {
+  display: none;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+  margin-left: 0px;
+  opacity: 1;
+}
+div[data-page="order"] .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+div[data-page="order"] .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+div[data-page="order"] .closecontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+div[data-page="order"] .close {
+  position: absolute;
+  right: 13px;
+  top: -30px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+div[data-page="order"] .close:hover,
+div[data-page="order"] .close:focus {
+  color: red;
+  cursor: pointer;
+}
+div[data-page="order"] .content-block {
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+div[data-page="payment"] .modal {
+  display: none;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+  margin-left: 0px;
+  opacity: 1;
+}
+div[data-page="payment"] .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+div[data-page="payment"] .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+div[data-page="payment"] .closecontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+div[data-page="payment"] .close {
+  position: absolute;
+  right: 13px;
+  top: -30px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+div[data-page="payment"] .close:hover,
+div[data-page="payment"] .close:focus {
+  color: red;
+  cursor: pointer;
+}
+div[data-page="payment"] .content-block {
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* manageCategories page CSS End */

@@ -1,0 +1,165 @@
+<div data-page="add-categories" class="page">
+	<!-- Begin: Navbar -->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="left">
+				<a href="add-categories.html#" class="link icon-only back">
+					<i class="icon icon-back"></i>
+				</a>
+			</div>
+			<div class="center">Add Categories</div>
+		</div>
+	</div>
+	<!-- End: Navbar -->
+
+	<!-- Begin: Page Content -->
+  <div class="page-content">
+
+		<!-- <div class="content-block">
+			<p>The Form Validation component makes it easy to validate user input.</p>
+		</div> -->
+
+		<!-- <form name="addshop" action="/modifyshop" method="POST"> -->
+			<div class="list-block no-hairlines">
+				<ul>
+					<li>
+						<div class="item-content">
+              <!-- <div class="item-media">
+                <i class="material-icons">person_outline</i>
+              </div> -->
+            <div class="item-inner">
+                <div class="item-title floating-label">Category Name</div>
+              <div class="item-input">
+                <input id="categoryName" type="text" name="name" required/>
+              </div>
+              <div class="item-text input-error"></div>
+            </div>
+          </div>
+        </li>		
+        <li>
+
+            <div class="content-block">
+                <p>
+                   <h4>Sub Categories</h4> 
+                  </p>
+            </div>
+
+          <div class="SubCat">
+           
+            <!-- <div class="item-content">
+                <div class="item-inner">
+                    <div class="item-input">
+                        <input type="text"/>
+                    </div>   
+                </div>
+                <button class="button button-small button-block button-fill button-circle custom-center">
+                    -
+                  </button>
+            </div>   -->
+          </div>
+
+
+
+      </li>
+      <li>
+          <div class="content-block">
+          
+              <!-- <button class="button button-big button-block button-fill">Add Sub Categories</button> -->
+              <button id="addSubCat" onclick="addSubCat()"class="button button-big button-block button-fill custom-center">
+                  +
+                </button>
+            </div>	
+      </li>				
+      <li>
+        <div class="content-block error-message">
+          
+        </div>
+      </li>
+      <li>
+          <div class="content-block">
+              <button onclick="catJson()" class="button button-big button-block button-fill">Add Category</button>
+            </div>
+      </li>
+				</ul>
+
+			</div>
+			<!-- <div class="content-block">
+				<button class="button button-big button-block button-fill">Update Store</button>
+			</div> -->
+		<!-- </form> -->
+	</div>
+  <!-- End: Page Content -->
+  
+
+  <!-- Begin: Floating Action Button -->
+  <a href="#" class="floating-button" id="floating-button">
+    <i class="material-icons">add</i>
+  </a>
+  <!-- End: Floating Action Button -->
+  <div id="modal" class="modal">
+    <form class="modal-content animate" name="validation" action="#" method="POST" enctype="multipart/form-data">
+      <div class="closecontainer">
+          <span id="closeModal" class="close" title="Close">&times;</span>
+        </div>
+      <div class="list-block no-hairlines">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-media">
+                <i class="material-icons">person_outline</i>
+              </div>
+              <div class="item-inner">
+                <div class="item-input">
+                  <input type="text" name="name" placeholder="Name" required />
+                </div>
+                <div class="item-text input-error"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media">
+                <i class="material-icons">language</i>
+              </div>
+              <div class="item-inner">
+                <div class="item-input">
+                  <input type="url" name="url" placeholder="URL" required />
+                </div>
+                <div class="item-text input-error"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media">
+                <i class="material-icons">looks_one</i>
+              </div>
+              <div class="item-inner">
+                <div class="item-input">
+                  <input type="number" name="number" placeholder="Number" required />
+                </div>
+                <div class="item-text input-error"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media">
+                <i class="material-icons">looks_one</i>
+              </div>
+              <div class="item-inner">
+                <div class="item-input">
+                  <input type="number" name="digits" placeholder="Digits" required />
+                </div>
+                <div class="item-text input-error"></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="content-block">
+        <button type="submit" class="button button-big button-block button-fill">Validate</button>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,86 @@
+<div data-page="addBank" class="page">
+	<!-- Begin: Navbar -->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="left">
+				<a href="addBank.html#" class="link icon-only back">
+					<i class="icon icon-back"></i>
+				</a>
+			</div>
+			<div class="center">Add Bank Details</div>
+		</div>
+	</div>
+	<!-- End: Navbar -->
+
+	<!-- Begin: Page Content -->
+	<div class="page-content">
+
+		<!-- <div class="content-block">
+			<p>The Form Validation component makes it easy to validate user input.</p>
+		</div> -->
+		<!-- <button id="addBankDetails">add bank details</button> -->
+		<form name="addBank" action="/addBank" method="POST" enctype="multipart/form-data">
+			<div class="list-block no-hairlines">
+				<ul>
+					<div class="item-content">
+						<div class="item-inner">
+							<div class="item-title floating-label">PAN Card</div>
+							<div class="user-info custom-center">
+								<img id="panCardEdit1"  class="autoSize"/>
+								<input type="file" name="editPanCard" id="editPanCard1" class="hidden">
+								<label id="editLabel1">Edit</label>
+							</div>
+						</div>
+					</div>
+					</li>
+					<li>
+						<div class="item-content">
+							<!-- <div class="item-media">
+										<i class="material-icons">person_outline</i>
+									</div> -->
+							<div class="item-inner">
+								<div class="item-title floating-label">Bank Account Number</div>
+								<div class="item-input">
+									<input type="text" name="accNo" required />
+								</div>
+								<div class="item-text input-error"></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-content">
+							<!-- <div class="item-media">
+										<i class="material-icons">person_outline</i>
+									</div> -->
+							<div class="item-inner">
+								<div class="item-title floating-label">Bank Name</div>
+								<div class="item-input">
+									<input type="text" name="name" required />
+								</div>
+								<div class="item-text input-error"></div>
+							</div>
+						</div>
+					</li>
+
+
+
+				</ul>
+
+				<!-- <label class="label-checkbox item-content">
+						<input type="checkbox" name="checkbox" value="books" checked />
+						<span class="item-media">
+							<i class="icon icon-form-checkbox"></i>
+						</span>
+						<span class="item-inner">
+							<span class="resizable">I agree that the products I display on my store will not be fake or infringe any copyrights and trademarks.</span>
+					</label> -->
+			</div>
+			<div class="message">
+			</div>
+			<div class="content-block">
+				<button type="submit" class="button button-big button-block button-fill">Update</button>
+			</div>
+		</form>
+	</div>
+	<!-- End: Page Content -->
+</div>

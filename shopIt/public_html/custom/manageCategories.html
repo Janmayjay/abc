@@ -1,0 +1,127 @@
+<div data-page="manageCategories" class="page toolbar-fixed">
+  <!-- Begin: Navbar -->
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="left">
+        <a href="#" class="link icon-only back">
+          <i class="icon icon-back"></i>
+        </a>
+      </div>
+      <div class="center">Manage Categories</div>
+    </div>
+  </div>
+  <!-- End: Navbar -->
+
+ 
+
+  <!--Begin: Page Content -->
+  <div class="">
+    <div class="catTable"></div>
+    <div class="error"></div>
+  </div>
+  <!-- End: Page Content
+
+
+  <!-- Begin: Floating Action Button -->
+  <a href="#" class="floating-button" id="floating-button">
+    <i class="material-icons">add</i>
+  </a>
+  <!-- End: Floating Action Button -->
+  <div id="modal" class="modal">
+    <form id="form" class="modal-content animate" name="add-categories" action="add-categories" method="POST" enctype="multipart/form-data">
+      <div class="closecontainer">
+          <span id="closeModal" class="close" title="Close">&times;</span>
+        </div>
+        <div class="list-block no-hairlines">
+          <ul class="ulCorrect">
+            <li>
+              <div class="item-content">
+                <!-- <div class="item-media">
+                  <i class="material-icons">person_outline</i>
+                </div> -->
+              <div class="item-inner">
+                  <div class="item-title floating-label">Category Name</div>
+                <div class="item-input">
+                  <input id="categoryName" type="text" name="name" required/>
+                  <input id="keyData" type="text" name="keyData"  style="height:0px"/>          
+                </div>
+                <div class="item-text input-error"></div>
+              </div>
+            </div>
+          </li>		
+          <li>
+  
+              <!-- <div class="content-block">
+                  <p>
+                     <h4>Sub Categories</h4> 
+                    </p>
+              </div> -->
+
+              <div class="item-inner">
+                <div class="item-title floating-label" style="transform: scale(1) translateY(0px);left: 16px;">Sub Categories</div>
+             
+            </div>
+            <div class="SubCat overflowCorrect" >
+             
+              <div class="item-content">
+                  <div class="item-inner">
+                      <div class="item-input">
+                          <input type="text"/>
+                      </div>   
+                  </div>
+                  <button class="button button-small button-block button-fill button-circle custom-center">
+                      -
+                    </button>
+              </div>  
+            </div>
+  
+  
+  
+        </li>
+        <li>
+            <input type="button" id="addSubCat" class="button button-big button-block button-fill custom-center" value="+">
+            <div class="content-block">
+            
+                <!-- <button class="button button-big button-block button-fill">Add Sub Categories</button> -->
+                <!-- <button type="button" onclick="addSubCat()" class="button button-big button-block button-fill custom-center"> -->
+                    
+                  <!-- </button> -->
+              </div>	
+        </li>				
+        <li>
+          <div class="content-block error-message">
+            
+          </div>
+        </li>
+        
+          </ul>
+  
+        </div>
+      <div class="content-block">
+        <button id="modalSubmit" type="submit" class="button button-big button-block button-fill">Add Category</button>        
+      </div>
+    </form>
+  </div>
+
+
+  <div id="viewModal" class="modal">
+      <!-- <div class="model-content animate"></div> -->
+      <div class="modal-content animate">
+        <div class="closecontainer">
+          <span id="closeViewModal" class="close tooltipstered">×</span>
+        </div>
+        <div class="pop-up list-block no-hairlines inputs-list">
+          <ul>
+            
+          </ul>
+
+  
+        </div>
+        
+        
+      </div>
+    </div>
+
+
+    <div class="error"></div>
+  
