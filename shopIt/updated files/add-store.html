@@ -1,0 +1,227 @@
+<div data-page="add-store" class="page">
+	<!-- Begin: Navbar -->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="left">
+				<a href="add-store.html#" class="link icon-only back">
+					<i class="icon icon-back"></i>
+				</a>
+			</div>
+			<div class="center">Store Setup</div>
+		</div>
+	</div>
+	<!-- End: Navbar -->
+
+	<!-- Begin: Page Content -->
+  <div class="page-content">
+
+		<!-- <div class="content-block">
+			<p>The Form Validation component makes it easy to validate user input.</p>
+		</div> -->
+
+		<form name="addStore" action="/addshop" method="POST">
+			<div class="list-block no-hairlines">
+				<ul>
+					<li>
+						<div class="item-content">
+							<div class="item-inner">
+									<div class="user-info custom-center">
+										<img class="img-circle user-photo" src="assets/custom/img/profile_pic.png" width="64" height="64" alt="Avatar" />
+										<div class="item-title"></div>
+										<div>
+											<!-- <input type="file" id="files" class="hidden"/> -->
+											<!-- <label for="files">EDIT</label> -->
+										</div>
+									</div>
+							</div>
+						</div>
+					</li>
+					<!-- <li>
+						<div class="item-content">
+								<div class="item-media">
+									<i class="material-icons">person_outline</i>
+								</div>
+							<div class="item-inner">
+									<div class="item-title floating-label">Store Name</div>
+								<div class="item-input">
+									<input type="text" name="name" required />
+								</div>
+								<div class="item-text input-error"></div>
+							</div>
+						</div>
+					</li> -->
+					
+					<li>
+						<div class="item-content">
+								<!-- <div class="item-media">
+									<i class="material-icons">person_outline</i>
+								</div> -->
+							<div class="item-inner">
+									<div class="item-title floating-label">Description</div>
+								<div class="item-input">
+									<input type="text" name="desc" required />
+								</div>
+								<div class="item-text input-error"></div>
+							</div>
+						</div>
+					</li>
+					 
+
+					<li>
+							<div class="item-content">
+								<!-- <div class="item-media">
+									<i class="material-icons">person_outline</i>
+								</div> -->
+								<div class="item-inner">
+										<div class="item-title floating-label">Phone Number</div>
+									<div class="item-input">
+									 <input type="number" name="pno" required />
+									</div>
+									<div class="item-text input-error"></div>
+								</div>
+							</div>
+						</li>
+					
+						<li>
+								<div class="item-content">
+									<!-- <div class="item-media">
+										<i class="material-icons">person_outline</i>
+									</div> -->
+									<div class="item-inner">
+											<div class="item-title floating-label">Email ID</div>
+										<div class="item-input">
+										 <input type="email" name="email" required />
+										</div>
+										<div class="item-text input-error"></div>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="item-content">
+									<!-- <div class="item-media">
+										<i class="material-icons">person_outline</i>
+									</div> -->
+									<div class="item-inner">
+											<div class="item-title floating-label">GSTIN</div>
+										<div class="item-input">
+										 <input type="text" name="gstin" required />
+										</div>
+										<div class="item-text input-error"></div>
+									</div>
+								</div>
+							</li>
+
+							<li>
+									<div class="item-content">
+										<!-- <div class="item-media">
+											<i class="material-icons">person_outline</i>
+										</div> -->
+										<div class="item-inner">
+												<div class="item-title floating-label">Pincode</div>
+											<div class="item-input">
+											 <input type="number" name="pincode" required />
+											</div>
+											<div class="item-text input-error"></div>
+										</div>
+									</div>
+								</li>
+
+								<li>
+										<div class="item-content">
+											<!-- <div class="item-media">
+												<i class="material-icons">person_outline</i>
+											</div> -->
+											<div class="item-inner">
+													<div class="item-title floating-label">City</div>
+												<div class="item-input">
+												 <input type="text" name="city" required />
+												</div>
+												<div class="item-text input-error"></div>
+											</div>
+										</div>
+									</li>
+
+									<li>
+											<div class="item-content">
+												<!-- <div class="item-media">
+													<i class="material-icons">person_outline</i>
+												</div> -->
+												<div class="item-inner">
+														<div class="item-title floating-label">Store Address</div>
+													<div class="item-input">
+													 <input type="text" name="address" required />
+													</div>
+													<div class="item-text input-error"></div>
+												</div>
+											</div>
+										</li>
+
+										BANK DETAILS
+
+										<li>
+											<div class="item-content">
+												<div class="item-inner">
+														<div class="item-title floating-label">PAN Card</div>
+														<div class="user-info custom-center">
+															<img class="img-circle user-photo" src="assets/custom/img/profile_pic.png" width="64" height="64" alt="Avatar" />
+															<!-- <div class="item-title floating-label">Name</div> -->
+															<!-- <div class="item-title">PAN CARD</div> -->
+															<div>
+																<input name="panCard" type="text" id="files" class=""/>
+																<!-- <label for="files">EDIT</label> -->
+															</div>
+														</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="item-content">
+													<!-- <div class="item-media">
+														<i class="material-icons">person_outline</i>
+													</div> -->
+												<div class="item-inner">
+														<div class="item-title floating-label">Bank Account Number</div>
+													<div class="item-input">
+														<input type="text" name="accNo" required />
+													</div>
+													<div class="item-text input-error"></div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="item-content">
+													<!-- <div class="item-media">
+														<i class="material-icons">person_outline</i>
+													</div> -->
+												<div class="item-inner">
+														<div class="item-title floating-label">Bank Name</div>
+													<div class="item-input">
+														<input type="number" name="bname" required />
+													</div>
+													<div class="item-text input-error"></div>
+												</div>
+											</div>
+										</li>					
+					
+					
+				</ul>
+
+				<!-- <label class="label-checkbox item-content">
+						<input type="checkbox" name="checkbox" value="books" checked />
+						<span class="item-media">
+							<i class="icon icon-form-checkbox"></i>
+						</span>
+						<span class="item-inner">
+							<span class="resizable">I agree that the products I display on my store will not be fake or infringe any copyrights and trademarks.</span>
+					</label> -->
+			</div>
+			<div class="message">
+			</div>
+			<div class="content-block">
+				<button type="submit" class="button button-big button-block button-fill">Add Store Details</button>
+			</div>
+		</form>
+	</div>
+	<!-- End: Page Content -->
+</div>
